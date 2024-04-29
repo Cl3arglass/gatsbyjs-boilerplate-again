@@ -1,5 +1,5 @@
-import { next } from '@vercel/edge'
 
-export async function middleware (req, res, next) {
+
+export async function middleware (res) {
     res.send("hello world");
   }
